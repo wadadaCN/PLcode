@@ -36,7 +36,7 @@ class Solution(object): # rank 70%,
 索引超出，说明所有数都只出现了一遍。
 '''
 
-class Solution(object):
+class Solution(object): # rank 14%
     def findShortestSubArray(self, nums):
         left, right, count = {}, {}, {}
         for i, x in enumerate(nums):
